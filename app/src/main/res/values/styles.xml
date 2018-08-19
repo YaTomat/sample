@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewField">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+    <style name="EditTextField">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+    <style name="TitleDescription" parent="TextViewField">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+
+    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">22sp</item> <!-- menu item text size-->
+        <item name="android:listPreferredItemHeightSmall">64dp</item><!-- menu item height-->
+    </style>
+
+</resources>

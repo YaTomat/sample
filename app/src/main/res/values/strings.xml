@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Sample App</string>
+
+    <!-- Login screen -->
+    <string name="login_terminal_login">Terminal-login:</string>
+    <string name="login_terminal_password">Terminal-password:</string>
+    <string name="login_btn_registration">Registration</string>
+    <string name="login_saler_login">Seller-login</string>
+    <string name="login_saler_password">Seller-password</string>
+    <string name="login_change_terminal">Your terminal: %1$s <u><font color='blue'>Change?</font></u></string>
+    <string name="login_error_title">Authorization error</string>
+    <!--Drawer-->
+    <string name="menu_title_transaction">Transactions</string>
+    <string name="menu_find_purchase">Find purchase</string>
+    <string name="menu_title_card_info">Card info</string>
+    <string name="menu_receipt">Receipt</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <!--Purchase screen-->
+    <string name="stock">Stock</string>
+    <string name="card_number">Card number</string>
+    <string name="phone_number"><b>Phone number</b>(not necessary if card number exists)</string>
+    <string name="phone_number_hint">Example: 79128531272</string>
+    <string name="purchase_amount">Purchase amount</string>
+    <string name="perform_transaction">Perform Transaction</string>
+    <string name="added_bonuses">Added bonuses</string>
+    <string name="discount_amount">Discount amount</string>
+    <string name="max_discount">Max discount</string>
+    <string name="max_discount_choose">Enter discount amount</string>
+    <string name="pay_by_bonuses">Pay by bonuses</string>
+    <string name="discount_is_recorded">Discount is recorded</string>
+    <string name="successful_purchase">Purchase is performed</string>
+    <string name="date_time">Date/Time</string>
+    <string name="discount_percent">Discount percent</string>
+    <string name="amount_for_paying">Amount for paying</string>
+    <string name="current_amount_bonuses">Current amount of bonuses</string>
+    <string name="new_purchase">New purchase</string>
+
+    <!-- Statistic-->
+    <string name="statistic_begin">Start</string>
+    <string name="statistic_end">End</string>
+    <string name="statistic_by_all_terminal">Get statistics for the terminal</string>
+    <string name="statistic_user">User</string>
+    <string name="statistic_terminal">Terminal</string>
+    <string name="statistic_please_choose_correct_end_date">Please choose correct end date</string>
+    <string name="statistic_card_number">Card number:</string>
+    <string name="statistic_date_purchase">Purchase date:</string>
+    <string name="statistic_purchase">Purchase</string>
+    <string name="statistic_purchase_amount">Purchase amount:</string>
+    <string name="statistic_purchase_bonuses_paid">Paid bonuses:</string>
+    <string name="statistic_purchase_bonuses_income">Bonus income:</string>
+    <string name="statistic_purchase_to_pay">To pay:</string>
+    <string name="statistic_empty_list">No items suitable for the conditions</string>
+    <string name="statistic_choose_date">Please choose date for requesting data</string>
+
+    <!-- Card info -->
+    <string name="card_info_name">Name</string>
+    <string name="card_info_yes">Yes</string>
+    <string name="card_info_no">No</string>
+    <string name="card_info_surnname">Surname</string>
+    <string name="card_info_third_name">Third Name</string>
+    <string name="card_info_vip_card">Is VIP card?</string>
+    <string name="card_info_virtual_card">Is virtual card?</string>
+    <string name="card_info_bonuses_amount">Bonuses amount</string>
+    <string name="card_info_get">Get Card Info</string>
+    <string name="card_info_error_message">Please fill card number</string>
+
+    <!-- Find purchase-->
+    <string name="find_purchase_search_by">Search by</string>
+    <string name="find_purchase_card_number">Card number</string>
+    <string name="find_purchase_phone_number">Phone number</string>
+    <string name="find_purchase_find">Search</string>
+    <string name="find_purchase_date">Purhcase date</string>
+    <string name="find_purchase_by_card">Card number</string>
+    <string name="find_purchase_by_phone">Phone number</string>
+    <string name="return_item_question">Return Item?</string>
+    <string name="return_item">Return</string>
+    <string name="purchases_not_found">Purchases are not found</string>
+
+    <!--error messages-->
+    <string name="not_all_fields_are_filled">Please fill all fields</string>
+    <string name="max_discount_alert">Max discount is %1$S</string>
+    <string name="no_network_connection">No network connection</string>
+    <string name="no_server_respond">Server doesn\'t respond</string>
+    <string name="unknown_error">Unknown error</string>
+
+    <!-- Toolbar titles-->
+    <string name="purchase_info">Card Info</string>
+    <string name="statistic_title">Statistic</string>
+    <string name="return_item_title">Return Item</string>
+    <string name="find_purchase_title">Find Purchase</string>
+    <string name="purchase_title">Create a new purchase</string>
+    <string name="discount_purchase">Discount Purchase</string>
+    <string name="purchase_info_title">Purchase info</string>
+
+
+</resources>

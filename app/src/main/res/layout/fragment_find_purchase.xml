@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aux_tv_card_number"
+            style="@style/TitleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/find_purchase_card_number" />
+
+        <LinearLayout
+            android:id="@+id/ll_card_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditTextField"
+                android:id="@+id/et_card_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number" />
+
+            <ImageView
+                android:id="@+id/iv_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_margin"
+                android:src="@drawable/ic_photo_camera_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aux_tv_phone_number"
+            style="@style/TitleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/find_purchase_phone_number" />
+
+        <EditText
+            style="@style/EditTextField"
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:hint="@string/phone_number_hint"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/TitleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/find_purchase_date" />
+
+        <EditText
+            style="@style/EditTextField"
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:clickable="true"
+            android:inputType="none"
+            android:longClickable="false" />
+
+        <TextView
+            style="@style/TitleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/purchase_amount" />
+
+        <EditText
+            style="@style/EditTextField"
+            android:id="@+id/et_amount_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/find_purchase_find" />
+
+    </LinearLayout>
+</ScrollView>

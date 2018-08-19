@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Sample App</string>
+
+    <!-- Login screen -->
+    <string name="login_terminal_login">Терминал-логин:</string>
+    <string name="login_terminal_password">Терминал-пароль:</string>
+    <string name="login_btn_registration">Регистрация</string>
+    <string name="login_saler_login">Продавец-логин</string>
+    <string name="login_saler_password">Продавец-пароль</string>
+    <string name="login_change_terminal">Ваш терминал: %1$s <u><font color='blue'>Сменить?</font></u></string>
+    <string name="login_error_title">Ошибка при авторизации</string>
+
+    <!--Drawer-->
+    <string name="menu_title_transaction">Новая покупка</string>
+    <string name="menu_find_purchase">Поиск и возврат покупки</string>
+    <string name="menu_title_card_info">Информация о карте</string>
+    <string name="menu_receipt">Выписка</string>
+    <string name="menu_logout">Выход</string>
+
+
+    <string name="openDrawer">Открыть меню</string>
+    <string name="closeDrawer">Закрыть меню</string>
+    <!--Purchase screen-->
+    <string name="stock">Акция</string>
+    <string name="card_number">Номер карты</string>
+    <string name="phone_number"><b>Номер телефона</b></string>
+    <string name="purchase_amount">Сумма покупки</string>
+    <string name="perform_transaction">Провести транзакцию</string>
+    <string name="phone_number_hint">Пример: 79128531272</string>
+
+
+    <!--Finish purchase screen -->
+    <string name="added_bonuses">Начисленные бонусы </string>
+    <string name="discount_amount">Сумма скидки</string>
+    <string name="max_discount">Максимальная скидка</string>
+    <string name="max_discount_choose">Введите сумму скидки</string>
+    <string name="pay_by_bonuses">Оплатить бонусами</string>
+    <string name="successful_purchase">Покупка совершена</string>
+    <string name="discount_is_recorded">Скидка учтена</string>
+    <string name="date_time">Дата/Время</string>
+    <string name="discount_percent">Процент скидки</string>
+    <string name="amount_for_paying">Сумма к оплате</string>
+    <string name="current_amount_bonuses">Текущий остаток бонусов на карте</string>
+    <string name="new_purchase">Новая покупка</string>
+
+
+    <!-- Statistic -->
+    <string name="statistic_begin">Начало</string>
+    <string name="statistic_end">Конец</string>
+    <string name="statistic_by_all_terminal">Получить статистику для терминала</string>
+    <string name="statistic_user">Пользователь</string>
+    <string name="statistic_terminal">Терминал</string>
+    <string name="statistic_please_choose_correct_end_date">Пожалуйста выберите корректную конечную дату</string>
+    <string name="statistic_card_number">Номер карты:</string>
+    <string name="statistic_date_purchase">Дата покупки:</string>
+    <string name="statistic_purchase">Покупка</string>
+    <string name="statistic_purchase_amount">Сумма покупки:</string>
+    <string name="statistic_purchase_bonuses_paid">Оплачено бонусами:</string>
+    <string name="statistic_purchase_bonuses_income">Бонусов получено:</string>
+    <string name="statistic_purchase_to_pay">К оплате:</string>
+    <string name="statistic_empty_list">Отсутствуют покупки, совершенные в указанный диапазон</string>
+    <string name="statistic_choose_date">Пожалуйста выберите даты для запроса данных</string>
+
+    <!-- Card info -->
+    <string name="card_info_name">Имя</string>
+    <string name="card_info_yes">Да</string>
+    <string name="card_info_no">Нет</string>
+    <string name="card_info_surnname">Фамилия</string>
+    <string name="card_info_third_name">Отчество</string>
+    <string name="card_info_vip_card">Карта VIP?</string>
+    <string name="card_info_virtual_card">Карта виртуальная?</string>
+    <string name="card_info_bonuses_amount">Накопленное количество бонусов</string>
+    <string name="card_info_get">Получить информацию по карте</string>
+    <string name="card_info_error_message">Пожалуйста заполните номер карты</string>
+
+    <!-- Find purchase-->
+    <string name="find_purchase_search_by">Поиск по</string>
+    <string name="find_purchase_card_number">Номер карты</string>
+    <string name="find_purchase_phone_number">Номер телефона</string>
+    <string name="find_purchase_find">Поиск</string>
+    <string name="find_purchase_date">Дата покупки</string>
+    <string name="find_purchase_by_card">Номеру карты</string>
+    <string name="find_purchase_by_phone">Номеру телефона</string>
+    <string name="return_item_question">Вернуть покупку?</string>
+    <string name="return_item">Вернуть</string>
+    <string name="purchases_not_found">Покупки не найдены</string>
+
+    <!--error messages-->
+    <string name="not_all_fields_are_filled">Пожалуйста, заполните все поля корректно</string>
+    <string name="max_discount_alert">Максимальная скидка равна %1$S</string>
+    <string name="no_network_connection">Нет интернет соединения</string>
+    <string name="no_server_respond">Сервер не отвечает</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+
+    <!-- Toolbar titles-->
+    <string name="purchase_info">Информация о карте</string>
+    <string name="statistic_title">Статистика</string>
+    <string name="return_item_title">Вернуть покупку</string>
+    <string name="find_purchase_title">Найти покупку</string>
+    <string name="purchase_title">Создать новую покупку</string>
+    <string name="discount_purchase">Скидка на покупку</string>
+    <string name="purchase_info_title">Информация о покупке</string>
+
+
+
+</resources>

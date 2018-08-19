@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/small_margin"
+    android:layout_marginRight="@dimen/small_margin"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/tv_date_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aux_tv_date_purchase"
+        android:layout_alignBottom="@+id/aux_tv_date_purchase"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/very_small_margin"
+        android:layout_marginStart="@dimen/very_small_margin"
+        tools:text="03.09.2017 23:07" />
+
+    <TextView
+        android:id="@+id/aux_tv_date_purchase"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_date_purchase"
+        android:layout_toStartOf="@id/tv_date_purchase"
+        android:gravity="right"
+        android:text="@string/statistic_date_purchase" />
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@id/tv_card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_date_purchase"
+        android:layout_marginLeft="@dimen/small_margin"
+        tools:text="12345678911" />
+
+    <TextView
+        android:id="@+id/aux_tv_card_number"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aux_tv_date_purchase"
+        android:layout_toLeftOf="@+id/tv_card_number"
+        android:layout_toStartOf="@+id/tv_card_number"
+        android:gravity="right"
+        android:text="@string/card_number" />
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@id/tv_amount_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_card_number"
+        android:layout_marginLeft="@dimen/small_margin"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/aux_tv_amount_purchase"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aux_tv_card_number"
+        android:layout_toLeftOf="@+id/tv_amount_purchase"
+        android:layout_toStartOf="@+id/tv_amount_purchase"
+        android:gravity="right"
+        android:text="@string/statistic_purchase_amount" />
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/tv_paid_bonuses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_amount_purchase"
+        android:layout_marginLeft="@dimen/small_margin"
+        tools:text="30" />
+
+    <TextView
+        android:id="@+id/aux_tv_paid_bonuses"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aux_tv_amount_purchase"
+        android:layout_toLeftOf="@+id/tv_paid_bonuses"
+        android:layout_toStartOf="@+id/tv_paid_bonuses"
+        android:gravity="right"
+        android:text="@string/statistic_purchase_bonuses_paid" />
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/tv_bonus_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_paid_bonuses"
+        android:layout_marginLeft="@dimen/small_margin"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/aux_tv_bonus_income"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aux_tv_paid_bonuses"
+        android:layout_toLeftOf="@+id/tv_bonus_income"
+        android:layout_toStartOf="@+id/tv_bonus_income"
+        android:gravity="right"
+        android:text="@string/statistic_purchase_bonuses_income" />
+
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/tv_to_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_bonus_income"
+        android:layout_marginLeft="@dimen/small_margin"
+        tools:text="1000" />
+
+    <TextView
+        android:id="@+id/aux_tv_to_pay"
+        style="@style/TitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aux_tv_bonus_income"
+        android:layout_toLeftOf="@+id/tv_to_pay"
+        android:layout_toStartOf="@+id/tv_to_pay"
+        android:gravity="right"
+        android:text="@string/statistic_purchase_to_pay" />
+
+
+</RelativeLayout>

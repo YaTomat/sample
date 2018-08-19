@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginRight="@dimen/default_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/default_margin">
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/aux_statistic_label_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistic_begin" />
+
+    <EditText
+        style="@style/EditTextField"
+        android:id="@+id/et_begin_date"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aux_statistic_label_begin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:clickable="true"
+        android:inputType="none"
+        android:longClickable="false" />
+
+    <TextView
+        style="@style/TextViewField"
+        android:id="@+id/aux_statistic_label_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_toEndOf="@id/et_begin_date"
+        android:layout_toRightOf="@id/et_begin_date"
+        android:text="@string/statistic_end" />
+
+    <EditText
+        style="@style/EditTextField"
+        android:id="@+id/et_end_date"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aux_statistic_label_end"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_toEndOf="@id/et_begin_date"
+        android:layout_toRightOf="@id/et_begin_date"
+        android:clickable="true"
+        android:inputType="none"
+        android:longClickable="false" />
+
+    <Switch
+        android:id="@+id/switch_type_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_begin_date"
+        android:layout_marginBottom="32dip"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/statistic_by_all_terminal"
+        android:textOff="@string/statistic_user"
+        android:textOn="@string/statistic_terminal" />
+</RelativeLayout>
